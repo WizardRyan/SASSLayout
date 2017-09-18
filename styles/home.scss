@@ -17,5 +17,10 @@ nav {
   font-weight: bolder;
   justify-self: flex-start;
   width: 100%;
+
+  span{
+    text-shadow: 2px 2px 15px $shadow;
+  }
 }
+
 

@@ -5,6 +5,7 @@ $orange: #E37B40;
 $red: #DE5B49;
 $header-font-size: 25px;
 $base-padding: 15px;
+$shadow: #333333;
 
 html{
   height: 100%;
@@ -35,6 +36,7 @@ a{
 }
 
 .card-orange{
+  box-shadow: 2px 2px 10px $shadow;
   height: 30%;
   width: 40%;
   background-color: $orange;
