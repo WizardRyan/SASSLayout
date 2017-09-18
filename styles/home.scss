@@ -6,9 +6,16 @@
   justify-content: space-around;
 }
 
+html{
+  overflow-x: hidden;
+}
+
+body{
+}
 nav {
   display: flex;
-  height: 6%;
+  height: 10%;
+  margin-bottom: 10px;
   align-items: center;
   justify-content: space-around;
   background-color: $secondary-color;
