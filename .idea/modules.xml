@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/SassPractice.iml" filepath="$PROJECT_DIR$/.idea/SassPractice.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/SASSLayout.iml" filepath="$PROJECT_DIR$/.idea/SASSLayout.iml" />
+>>>>>>> ca20dea3c52a3b524090a50f1f537dcd4cf0346d
     </modules>
   </component>
 </project>

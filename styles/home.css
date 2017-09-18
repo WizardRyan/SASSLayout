@@ -33,8 +33,10 @@ a {
   padding: 15px;
   margin: 20px;
   color: white;
-  font-family: Arial;
-  font-size: 1.8em; }
+  font-family: Arial, sans-serif;
+  font-size: 1.8em;
+  max-width: 600px;
+  min-height: 200px; }
 
 .card-yellow {
   background-color: #F0CA4D; }
@@ -55,6 +57,8 @@ nav {
   background-color: #46B29D;
   color: white;
   font-size: 25px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  justify-self: flex-start;
+  width: 100%; }
 
 /*# sourceMappingURL=home.css.map */
