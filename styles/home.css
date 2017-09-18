@@ -30,8 +30,8 @@ a {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  min-padding: 15px;
-  min-margin: 20px; }
+  padding: 15px;
+  margin: 20px; }
 
 .card-yellow {
   background-color: #F0CA4D; }
