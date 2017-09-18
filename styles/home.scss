@@ -1,0 +1,19 @@
+@import 'main';
+
+.main-wrapper{
+  background-color: $primary-color;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  height: 6%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $secondary-color;
+  color: white;
+  font-size: $header-font-size;
+  font-weight: bolder;
+}
+

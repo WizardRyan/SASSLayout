@@ -1,0 +1,59 @@
+$primary-color: #324D5C;
+$secondary-color: #46B29D;
+$yellow: #F0CA4D;
+$orange: #E37B40;
+$red: #DE5B49;
+$header-font-size: 25px;
+$base-padding: 15px;
+
+html{
+  height: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.main-wrapper{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.card-orange{
+  height: 30%;
+  width: 40%;
+  background-color: $orange;
+  align-self: center;
+  justify-self: center;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: $base-padding;
+}
+
+.card-yellow{
+  @extend .card-orange;
+  background-color: $yellow;
+}
+
+.card-red{
+  @extend .card-orange;
+  background-color: $red;
+}
+
+
