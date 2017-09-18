@@ -57,4 +57,62 @@ nav {
   font-size: 25px;
   font-weight: bolder; }
 
+html {
+  height: 100%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif; }
+
+.main-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: none; }
+
+.card-orange, .card-yellow, .card-red {
+  height: 30%;
+  width: 40%;
+  background-color: #E37B40;
+  align-self: center;
+  justify-self: center;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 20px;
+  color: white;
+  font-family: Arial;
+  font-size: 1.8em; }
+
+.card-yellow {
+  background-color: #F0CA4D; }
+
+.card-red {
+  background-color: #DE5B49; }
+
+.single-social-section {
+  display: flex; }
+  .single-social-section .social-image {
+    flex-basis: 20%; }
+    .single-social-section .social-image img {
+      height: 45px; }
+  .single-social-section .social-text {
+    flex-basis: 75%;
+    padding-left: 5%; }
+    .single-social-section .social-text span {
+      font-size: 12px;
+      line-height: 12px;
+      display: block; }
+
 /*# sourceMappingURL=home.css.map */
