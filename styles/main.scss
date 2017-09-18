@@ -43,7 +43,8 @@ a{
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  padding: $base-padding;
+  min-padding: $base-padding;
+  min-margin: 20px;
 }
 
 .card-yellow{
