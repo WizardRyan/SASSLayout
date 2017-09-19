@@ -44,6 +44,13 @@ a {
 .card-red {
   background-color: #DE5B49; }
 
+.card-orange, .card-yellow, .card-red {
+  display: flex;
+  flex-direction: column; }
+
+.bottom {
+  font-size: 20px; }
+
 .main-wrapper {
   background-color: #324D5C;
   align-items: center;
