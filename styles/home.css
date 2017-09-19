@@ -42,7 +42,9 @@ a {
   background-color: #F0CA4D; }
 
 .card-red {
-  background-color: #DE5B49; }
+  background-color: #DE5B49;
+  min-height: 250px;
+}
 
 .main-wrapper {
   background-color: #324D5C;
@@ -60,5 +62,4 @@ nav {
   font-weight: bolder;
   justify-self: flex-start;
   width: 100%; }
-
 /*# sourceMappingURL=home.css.map */
