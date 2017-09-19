@@ -53,6 +53,7 @@ a{
 .card-yellow{
   @extend .card-orange;
   background-color: $yellow;
+  min-height: 220px;
 }
 
 .card-red{
