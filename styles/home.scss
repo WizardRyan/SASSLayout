@@ -4,6 +4,7 @@
   background-color: $primary-color;
   align-items: center;
   justify-content: space-around;
+  overflow: auto;
 }
 
 html{
@@ -33,9 +34,10 @@ nav {
   }
 }
 
+
 .card-wrapper{
   margin-top: 90px;
 }
 
-
-
+@import 'social';
+@import 'weather-styles';
