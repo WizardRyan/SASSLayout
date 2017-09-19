@@ -86,17 +86,11 @@ a {
 .card-red {
   background-color: #DE5B49; }
 
-.card-orange, .card-yellow, .card-red {
-  display: flex;
-  flex-direction: column; }
-
-.bottom {
-  font-size: 20px; }
-
 .main-wrapper {
   background-color: #324D5C;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  overflow: auto; }
 
 nav {
   display: flex;
@@ -142,6 +136,13 @@ nav {
       .social-box .social-row .social-link a {
         color: red;
         font-size: 12px; }
+
+.card-orange, .card-yellow, .card-red {
+  display: flex;
+  flex-direction: column; }
+
+.bottom {
+  font-size: 20px; }
 
 /*# sourceMappingURL=home.css.map */
 >>>>>>> ef45c0480310eedaa42792d8da60f760f05d8558
