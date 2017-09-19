@@ -56,8 +56,13 @@ html {
   overflow-x: hidden; }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 2px 15px #333333;
+  margin-top: 20px;
+  padding: 15px 0;
   display: flex;
-  height: 10%;
   margin-bottom: 10px;
   align-items: center;
   justify-content: space-around;
@@ -69,5 +74,8 @@ nav {
   width: 100%; }
   nav span {
     text-shadow: 1px 1px 10px #333333; }
+
+.card-wrapper {
+  margin-top: 100px; }
 
 /*# sourceMappingURL=home.css.map */

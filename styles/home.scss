@@ -13,8 +13,14 @@ html{
 body{
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 2px 15px $shadow;
+  margin-top: 20px;
+  padding: $base-padding 0;
   display: flex;
-  height: 10%;
+  //height: 10%;
   margin-bottom: 10px;
   align-items: center;
   justify-content: space-around;
@@ -29,5 +35,10 @@ nav {
     text-shadow: 1px 1px 10px $shadow;
   }
 }
+
+.card-wrapper{
+  margin-top: 100px;
+}
+
 
 
