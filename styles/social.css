@@ -10,8 +10,8 @@ body {
 
 .main-wrapper {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
   display: flex;
   flex-direction: column; }
 
@@ -22,8 +22,12 @@ a {
     text-decoration: none; }
 
 .card-orange, .card-yellow, .card-red {
+  display: flex;
   height: 30%;
   width: 40%;
+  max-width: 600px;
+  min-width: 400px;
+  min-height: 200px;
   background-color: #E37B40;
   align-self: center;
   justify-self: center;
@@ -35,8 +39,7 @@ a {
   color: white;
   font-family: Arial, sans-serif;
   font-size: 1.8em;
-  max-width: 600px;
-  min-height: 200px; }
+  box-shadow: 2px 2px 10px #333333; }
 
 .card-yellow {
   background-color: #F0CA4D; }
