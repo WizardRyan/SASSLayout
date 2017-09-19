@@ -3,7 +3,7 @@ $titleFontSize: 25px;
 $daysFontSize: 13px;
 .calender{
   width: 100%;
-  padding: $base-padding 0;
+  text-align: center;
   align-items: center;
   font-size: $titleFontSize;
   .title{
@@ -14,8 +14,9 @@ $daysFontSize: 13px;
     width: 100%;
     justify-content: space-between;
     margin-top: 10px;
-  }
-  span{
-    text-align: center;
+    span {
+      width: 20px;
+      text-align: center;
+    }
   }
 }
