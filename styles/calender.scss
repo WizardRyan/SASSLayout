@@ -1,0 +1,22 @@
+$base-padding: 15px;
+$titleFontSize: 25px;
+$daysFontSize: 13px;
+.calender{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: $titleFontSize;
+  .title{
+    font-weight: bold;
+  }
+  .weekDay{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    span {
+      width: 20px;
+      text-align: center;
+    }
+  }
+}

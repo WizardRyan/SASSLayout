@@ -43,7 +43,8 @@ a {
   min-height: 220px; }
 
 .card-red {
-  background-color: #DE5B49; }
+  background-color: #DE5B49;
+  min-height: 280px; }
 
 .main-wrapper {
   background-color: #324D5C;
@@ -62,6 +63,22 @@ nav {
   font-weight: bolder;
   justify-self: flex-start;
   width: 100%; }
+
+.calender {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 25px; }
+  .calender .title {
+    font-weight: bold; }
+  .calender .weekDay {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px; }
+    .calender .weekDay span {
+      width: 20px;
+      text-align: center; }
 
 .social-box {
   display: flex;
