@@ -33,8 +33,10 @@ a {
   padding: 15px;
   margin: 20px;
   color: white;
-  font-family: Arial;
-  font-size: 1.8em; }
+  font-family: Arial, sans-serif;
+  font-size: 1.8em;
+  max-width: 600px;
+  min-height: 200px; }
 
 .card-yellow {
   background-color: #F0CA4D; }
@@ -44,5 +46,13 @@ a {
 
 .single-social-section .social-image {
   height: 45px; }
+
+.card-orange, .card-yellow, .card-red {
+  display: flex;
+  flex-direction: column; }
+
+.bottom {
+  font-size: 20px; }
+
 
 /*# sourceMappingURL=social.css.map */

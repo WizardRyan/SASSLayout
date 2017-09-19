@@ -15,6 +15,8 @@ nav {
   color: white;
   font-size: $header-font-size;
   font-weight: bolder;
+  justify-self: flex-start;
+  width: 100%;
 }
 
 @import 'social';

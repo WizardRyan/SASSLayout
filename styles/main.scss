@@ -46,8 +46,10 @@ a{
   padding: $base-padding;
   margin: 20px;
   color: white;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 1.8em;
+  max-width: 600px;
+  min-height: 200px;
 }
 
 .card-yellow{
@@ -61,4 +63,4 @@ a{
   background-color: $red;
 }
 
-
+@import "asdf";

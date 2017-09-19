@@ -33,8 +33,10 @@ a {
   padding: 15px;
   margin: 20px;
   color: white;
-  font-family: Arial;
-  font-size: 1.8em; }
+  font-family: Arial, sans-serif;
+  font-size: 1.8em;
+  max-width: 600px;
+  min-height: 200px; }
 
 .card-yellow {
   background-color: #F0CA4D;
@@ -42,6 +44,13 @@ a {
 
 .card-red {
   background-color: #DE5B49; }
+
+.card-orange, .card-yellow, .card-red {
+  display: flex;
+  flex-direction: column; }
+
+.bottom {
+  font-size: 20px; }
 
 .main-wrapper {
   background-color: #324D5C;
@@ -56,7 +65,9 @@ nav {
   background-color: #46B29D;
   color: white;
   font-size: 25px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  justify-self: flex-start;
+  width: 100%; }
 
 .social-box {
   display: flex;
